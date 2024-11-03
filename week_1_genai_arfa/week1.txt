@@ -1,0 +1,59 @@
+1 - What is correct way to declare variables in python?
+variable == 5
+variable = 5*
+'variable' = 5
+variable -> 5
+---
+2 - Let say we have a variable VAR in which value 5 is stored. Which statement is used to print the variable of VAR?
+print('VAR')
+print(var)
+print(VAR)*
+PRINT(VAR)
+---
+3 - Which syntax is correct to check data type of variable in python?
+Type(variable)
+variable.type()
+varianle(type)
+type(variable)*
+---
+4 - Which keyword is used to convert a string into integer?
+int('34')*
+num('34')
+digit('34')
+NUM('34')
+---
+5 - What is not true about conditional statements in python?
+They are used to control the flow of program
+Conditions are necessary for conditional statements (except for the else block)
+There is no limit of instructions in each block of conditional statement
+In set of conditional statements, if any condition is satisfied, other conditions will still be evaluated*
+---
+6 - What is default data type of inputs?
+int
+str*
+bool
+ndarray
+---
+7 - What should be the output of: type('45')
+int
+bool
+str*
+float
+---
+8 - What should be the output of: '43' + '5'
+'4343434343'
+435
+'435'*
+48
+---
+9 - What should be the output of: 4 == 3
+True
+False*
+No output
+Not possible
+---
+10 - What is true about = operator
+It always have a output
+It always have True as output
+Used to evaluate conditions
+Used to declare variable*
