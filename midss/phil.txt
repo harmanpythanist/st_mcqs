@@ -1,0 +1,60 @@
+1 - Inductive Reasoning involves:
+Drawing specific conclusions from general premises
+Formulating general conclusions based on specific observations*
+Making conclusions based on common sense
+Providing explanations for specific events
+---
+2 - Which of the following is true about deductive reasoning?
+It always leads to probable conclusions
+It moves from specific to general
+It leads to logically certain conclusions*
+It is based on assumptions only
+---
+3 - Abductive Reasoning is often used to:
+Confirm an existing hypothesis
+Arrive at the most likely explanation*
+Derive general principles
+Disprove theories
+---
+4 - An example of inductive reasoning is:
+All men are mortal, Socrates is a man, therefore Socrates is mortal.
+The sun has risen every day so far, so it will rise tomorrow.*
+Socrates is a philosopher; therefore, he is wise.
+Humans need water, so animals must too.
+---
+5. The grue concept challenges which of the following ideas?
+Reality is constructed by perception.
+Science relies on falsifiability.
+Inductive predictions can always be trusted.*
+Hypotheses need empirical proof.
+---
+6. In deductive reasoning, if the premises are true, then:
+The conclusion must be false
+The conclusion may be true or false
+The conclusion must be true*
+The conclusion is irrelevant
+---
+7. Inference of the best solution is closely related to:
+Deductive reasoning
+Abductive reasoning*
+Inductive reasoning
+Grue hypothesis
+---
+8 - Which reasoning type is often described as “bottom-up”?
+Deductive
+Inductive*
+Abductive
+Grue
+---
+9 - In deductive reasoning, if the logic is valid but the premises are false, then the conclusion is:
+True
+False*
+Cannot be determined
+Inconclusive
+---
+10 - Which reasoning type is most associated with scientific discovery?
+Deductive reasoning
+Inductive reasoning*
+Abductive reasoning
+Intuition
+---
