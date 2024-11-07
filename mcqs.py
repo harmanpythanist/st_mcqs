@@ -26,6 +26,9 @@ def check():
         elif a == 'ml' and b == 'ml123':
             st.success('correct')
             return 'ml_arfa_class'
+        elif a == 'f24phil' and b == 'f24phil':
+            st.success('correct')
+            return 'f24_test_mcq'
 
 def mcqs_refining(data):
     a = data.split('---')
@@ -143,6 +146,26 @@ if a == 'ml_arfa_class':
     with b:    
         st.write('---')
         with open('week_1_genai_arfa/week1.txt', 'r') as f:
+            data = f.read()
+            
+        correct_options, refined_answers, questions, answers = mcqs_refining(data)
+        mcq_display(correct_options, refined_answers, questions, answers)
+        if st.button('Submit'):
+            check_mcq(correct_options, refined_answers, questions, answers)
+
+
+if a == 'f24_test_mcq':
+    st.subheader('Good luck for your quiz!')
+    a, b = st.tabs(['home', 'Philosophy Final'])
+
+    with a:
+        styled_text('Welcome. You can access your quiz on next page!', size = 17, bold = True)
+        st.write('---')
+        
+    
+    with b:    
+        st.write('---')
+        with open('midss/phil.txt', 'r') as f:
             data = f.read()
             
         correct_options, refined_answers, questions, answers = mcqs_refining(data)
