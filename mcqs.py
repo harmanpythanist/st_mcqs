@@ -91,27 +91,6 @@ st.write('---')
 
 
 a = check()
-if a == 'manal':
-    st.subheader('Good luck for your quizzes!')
-    a, b, c = st.tabs(['home', 'chap1', 'chap2'])
-    
-    with a:
-        styled_text('Welcome. You can access your quizzes on next pages!', size = 17, bold = True)
-        st.write('---')
-        
-    with b:    
-        st.write('---')
-        with open('mcqs.txt', 'r') as f:
-            data = f.read()
-
-        correct_options, refined_answers, questions, answers = mcqs_refining(data)
-        mcq_display(correct_options, refined_answers, questions, answers)  
-        if st.button('Submit'):
-            check_mcq(correct_options, refined_answers, questions, answers)
-
-    with c:
-        st.write('No content added yet')
-
 
 if a == 'harman':
     st.subheader('Good luck for your quizzes!')
@@ -155,13 +134,13 @@ if a == 'ml_arfa_class':
     
     with c:    
         st.write('---')
-        with open('week_1_genai_arfa/week2.txt', 'r') as f:
-            data = f.read()
+        with open('week_1_genai_arfa/week2.txt', 'r') as f1:
+            data1 = f1.read()
             
-        correct_options, refined_answers, questions, answers = mcqs_refining(data)
-        mcq_display(correct_options, refined_answers, questions, answers)
+        correct_options1, refined_answers1, questions1, answers1 = mcqs_refining(data1)
+        mcq_display(correct_options1, refined_answers1, questions1, answers1)
         if st.button('Submit'):
-            check_mcq(correct_options, refined_answers, questions, answers)
+            check_mcq(correct_options1, refined_answers1, questions1, answers1)
 
 if a == 'f24_test_mcq':
     st.subheader('Good luck for your quiz!')
