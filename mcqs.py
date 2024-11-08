@@ -134,7 +134,7 @@ if a == 'ml_arfa_class':
     
     with d:    
         st.write('---')
-        with open('week_1_genai_arfa/week2.txt', 'r') as f1:
+        with open('week_1_genai_arfa/week1.txt', 'r') as f1:
             data1 = f1.read()
             
         correct_options1, refined_answers1, questions1, answers1 = mcqs_refining(data1)
