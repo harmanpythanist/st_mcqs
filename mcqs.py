@@ -62,6 +62,7 @@ def mcq_display(correct_options, refined_answers, questions, answers):
         st.session_state.user_selections = [None] * len(questions)
     for num in range(len(questions)):
         try:
+            # Check if the user's previous selection exists in the refined answers list
             previous_selection = st.session_state.user_selections[num]
             index = refined_answers[num].index(previous_selection) if previous_selection in refined_answers[num] else 0
             
@@ -124,7 +125,7 @@ if a == 'ml_arfa_class':
         st.write('---')
         
     
-    with c:
+    with c:   
         round = 1
         st.write('---')
         with open('week_1_genai_arfa/week1.txt', 'r') as f:
@@ -136,14 +137,14 @@ if a == 'ml_arfa_class':
             check_mcq(correct_options, refined_answers, questions, answers)
     
     with d:  
-        round = 2
+        round=2
         st.write('---')
         with open('week_1_genai_arfa/week2.txt', 'r') as f1:
             data1 = f1.read()
             
         correct_options1, refined_answers1, questions1, answers1 = mcqs_refining(data1)
         mcq_display(correct_options1, refined_answers1, questions1, answers1)
-        if st.button('Submit'):
+        if st.button('Submit_Week2'):
             check_mcq(correct_options1, refined_answers1, questions1, answers1)
 
 if a == 'f24_test_mcq':
