@@ -53,7 +53,7 @@ functions*
 Conditional statements
 ---
 10 - Efficient and fast processing with lists require us to use
-numpy
+numpy*
 pandas
 seaborn
 pyplot
