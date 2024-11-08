@@ -59,18 +59,21 @@ def mcqs_refining(data):
 
 def mcq_display(correct_options, refined_answers, questions, answers):
     if 'user_selections' not in st.session_state:
-        st.session_state.user_selections = [None] * len(questions)  
+        st.session_state.user_selections = [None] * len(questions)
     for num in range(len(questions)):
         try:
+            # Check if the user's previous selection exists in the refined answers list
+            previous_selection = st.session_state.user_selections[num]
+            index = refined_answers[num].index(previous_selection) if previous_selection in refined_answers[num] else 0
+            
             st.session_state.user_selections[num] = st.selectbox(
                 questions[num],
                 refined_answers[num],
-                key=f"question_{num}",
-                index=refined_answers[num].index(st.session_state.user_selections[num]) if st.session_state.user_selections[num] else 0
+                key=f"question_{num}_{round}",
+                index=index
             )
         except IndexError:
             st.error(f"Error displaying question {num + 1}: Check the answer options format.")
-
 
 def check_mcq(correct_options, refined_answers, questions, answers):
     score = 0
@@ -122,7 +125,8 @@ if a == 'ml_arfa_class':
         st.write('---')
         
     
-    with c:    
+    with c:
+        round = 1
         st.write('---')
         with open('week_1_genai_arfa/week1.txt', 'r') as f:
             data = f.read()
@@ -132,7 +136,8 @@ if a == 'ml_arfa_class':
         if st.button('Submit'):
             check_mcq(correct_options, refined_answers, questions, answers)
     
-    with d:    
+    with d:  
+        round = 2
         st.write('---')
         with open('week_1_genai_arfa/week1.txt', 'r') as f1:
             data1 = f1.read()
@@ -152,6 +157,7 @@ if a == 'f24_test_mcq':
         
     
     with b:    
+        round = 1
         st.write('---')
         with open('midss/phil.txt', 'r') as f:
             data = f.read()
