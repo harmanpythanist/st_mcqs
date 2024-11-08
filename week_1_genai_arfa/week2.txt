@@ -16,7 +16,7 @@ np.linspace(1000, 10, 100)
 np.linspace(10, 100, 1000)*
 np.linspace(10, 1000, 100)
 ---
-4 - For with excel files, which of the library is used?
+4 - For working with excel files, which of the library is used?
 pandas*
 numpy
 pyploy
