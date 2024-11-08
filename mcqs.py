@@ -152,7 +152,16 @@ if a == 'ml_arfa_class':
         mcq_display(correct_options, refined_answers, questions, answers)
         if st.button('Submit'):
             check_mcq(correct_options, refined_answers, questions, answers)
-
+    
+    with c:    
+        st.write('---')
+        with open('week_1_genai_arfa/week2.txt', 'r') as f:
+            data = f.read()
+            
+        correct_options, refined_answers, questions, answers = mcqs_refining(data)
+        mcq_display(correct_options, refined_answers, questions, answers)
+        if st.button('Submit'):
+            check_mcq(correct_options, refined_answers, questions, answers)
 
 if a == 'f24_test_mcq':
     st.subheader('Good luck for your quiz!')
