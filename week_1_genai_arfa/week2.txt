@@ -1,0 +1,63 @@
+1 - What is correct way to load numpy in python
+import np
+import numpy*
+load np
+load numpy
+---
+2 - NumPy is majorly used for
+Working with lists and tuples
+Working with numericals, math and stats*
+Transforming lists into arrays
+Faster processing of for loops
+---
+3 - To generate 1000 numbers between 10 and 100 through numpy, what is the correct syntax
+linspace(10, 100, 1000).np
+np.linspace(1000, 10, 100)
+np.linspace(10, 100, 1000)*
+np.linspace(10, 1000, 100)
+---
+4 - For with excel files, which of the library is used?
+pandas*
+numpy
+pyploy
+seaborn
+---
+5 - To check the datatypes of different columns, we can use:
+file.describe()
+file.check()
+file.head()
+file.info()*
+---
+6 - To check the mean, median, and percentile values of numerical columns in excel file, we can use:
+file.describe()*
+file.check()
+file.head()
+file.info()
+---
+7 - Which of the following is not a correct code:
+file.info()
+file.tail()
+file.head()
+file.check()*
+---
+8 - Which of the set of libraries are used for visualizations:
+seaborn and pandas
+matplotlib and seaborn*
+numpy and matplotlib
+pandas and numpy
+---
+9 - When we have to perform a task again and again, which of the following concept can help us to save time?
+pyplot
+analysis
+functions*
+Conditional statements
+---
+10 - Efficient and fast processing with lists require us to use
+numpy
+pandas
+seaborn
+pyplot
+---
+
+
+
