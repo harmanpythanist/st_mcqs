@@ -123,6 +123,7 @@ if a == 'ml_arfa_class':
     with b:
         styled_text('Welcome. You can access your quizzes on next pages!', size = 17, bold = True)
         st.write('---')
+        st.write('Contact me [here](https://www.instagram.com/fly_fazaia/)')
         
     
     with c:   
