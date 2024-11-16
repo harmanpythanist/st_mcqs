@@ -118,7 +118,7 @@ if a == 'harman':
     
 if a == 'ml_arfa_class':
     st.subheader('Good luck for your quizzes!')
-    b,c,d = st.tabs(['home', 'week1', 'week2'])
+    b,c,d,a = st.tabs(['home', 'week1', 'week2', 'week3])
 
     with b:
         styled_text('Welcome. You can access your quizzes on next pages!', size = 17, bold = True)
@@ -146,6 +146,19 @@ if a == 'ml_arfa_class':
         mcq_display(correct_options1, refined_answers1, questions1, answers1)
         if st.button('Submit_Week2'):
             check_mcq(correct_options1, refined_answers1, questions1, answers1)
+
+    with a:
+        round=3
+        st.write('---')
+        with open('week_1_genai_arfa/week3.txt', 'r') as f1:
+            data1 = f1.read()
+            
+        correct_options1, refined_answers1, questions1, answers1 = mcqs_refining(data1)
+        mcq_display(correct_options1, refined_answers1, questions1, answers1)
+        if st.button('Submit_Week2'):
+            check_mcq(correct_options1, refined_answers1, questions1, answers1)
+
+        
 
 if a == 'f24_test_mcq':
     st.subheader('Good luck for your quiz!')
