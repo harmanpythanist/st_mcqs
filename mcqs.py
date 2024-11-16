@@ -118,7 +118,7 @@ if a == 'harman':
     
 if a == 'ml_arfa_class':
     st.subheader('Good luck for your quizzes!')
-    b,c,d,a = st.tabs(['home', 'week1', 'week2', 'week3])
+    b,c,d,a = st.tabs(['home', 'week1', 'week2', 'week3'])
 
     with b:
         styled_text('Welcome. You can access your quizzes on next pages!', size = 17, bold = True)
