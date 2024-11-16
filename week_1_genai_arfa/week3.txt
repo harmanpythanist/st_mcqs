@@ -1,0 +1,65 @@
+1 - What is true?
+Machines are programmed by conditional statements for unseen data
+Machines learn from data*
+Machines can not work on unseen data
+Machines learn not only excel data
+---
+2 - What are features in term of machine learning?
+Data which a machine predict after training
+Data on which machines are trained*
+Column names of data
+First half of overall data
+---
+3 - What is correct flow of training machine learning model?
+load model -> train on data*
+load scikit-learn -> design model -> train on data
+load data -> design model on pandas
+train on data -> design model
+---
+4 - What is true about labels in term of machine learning?
+Data on which machines are trained
+Data which is used for test purpose
+Column names in dataset
+Data which a machine predict after training*
+---
+5 - What is not true about linear regression model?
+It CAN used for classification problems
+It draws a straight line for prediction
+It is used for regression problems
+It is similar to KNN model*
+---
+6 - We are trying to create a machine learning model that will predict age of a person. Which machine learning model is suitable for this case?
+KNeighborsClassifier
+LogisticRegression
+LinearRegression*
+None of these
+---
+7 - If data is in excel file, how many columns at max can be termed as label
+1*
+2
+3
+any number of columns
+---
+8 - What is correct syntax to train machine learning model?
+model.train(features, labels)
+model.train(labels, features)
+model.fit(features, labels)*
+model.fit(labels, features)
+---
+9 - What is correct syntax to separate label column from dataset?
+label = data['column name']*
+label = data.labels
+label = data['LABELS']
+label = data('column name')
+---
+10 - What is correct form to load linear regression model?
+from sklearn.model_selection import LinearRegression as lr
+from sklearn.kneighbors import LinearRegression as lr
+from sklearn.models import LinearRegression as lr
+from sklearn.linear_model import LinearRegression as lr*
+
+
+
+
+
+
