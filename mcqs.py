@@ -155,7 +155,7 @@ if a == 'ml_arfa_class':
             
         correct_options1, refined_answers1, questions1, answers1 = mcqs_refining(data1)
         mcq_display(correct_options1, refined_answers1, questions1, answers1)
-        if st.button('Submit_Week2'):
+        if st.button('Submit_Week3'):
             check_mcq(correct_options1, refined_answers1, questions1, answers1)
 
         
