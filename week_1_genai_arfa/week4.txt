@@ -1,0 +1,59 @@
+1 - What is the main goal of Natural Language Processing (NLP)?
+To convert speech into text
+To analyze and understand human language*
+To translate programming languages
+To generate random text
+---
+2 - Which process breaks down text into individual units such as words or phrases?
+Stemming
+Tokenization*
+Lemmatization
+Parsing
+---
+3 - What does stemming primarily do to words?
+Converts them to their base meaning
+Reduces words to their root form*
+Groups them into sentences
+Corrects spelling errors
+---
+4 - Tokenization splits text into:
+Entire paragraphs
+Sentences and words*
+Synonyms
+Punctuation marks
+---
+5 - What type of neural network is designed to process sequential data?
+CNN
+RNN*
+ANN
+GAN
+---
+6 - Which issue is addressed by LSTMs in traditional RNNs?
+Difficulty handling images
+Overfitting
+Long-term dependencies*
+High computational cost
+---
+7 - In NLP, stemming often produces words that are:
+Grammatically correct
+Shorter but may lack meaning*
+Synonymous
+Pluralized
+---
+8 - Which activation function is commonly used in LSTM gates?
+ReLU
+Tanh*
+Softmax
+Step function
+---
+9 - The forget gate in LSTMs is responsible for:
+Removing irrelevant information*
+Generating output predictions
+Retaining past information
+Normalizing data
+---
+10 - What does RNN stand for?
+Recurrent Neural Network*
+Random Neural Network
+Recursive Neural Network
+Rapid Neural Network
