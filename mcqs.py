@@ -118,6 +118,7 @@ if a == 'harman':
     
 if a == 'ml_arfa_class':
     st.subheader('Good luck for your quizzes!')
+    styled_text('Introduction to Python and ML', size=15, bold=True)
     b,c,d,a,e = st.tabs(['home', 'week1', 'week2', 'week3', 'week4'])
 
     with b:
