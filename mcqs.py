@@ -89,6 +89,7 @@ def check_mcq(correct_options, refined_answers, questions, answers):
             st.write(f"Question {num + 1}: Incorrect. The correct answer was {correct_options[num]}.")
 
 styled_text('Welcome here to master your knowledge', size = 23)
+st.write('Contact me [here](https://www.instagram.com/fly_fazaia/)')
 st.write('---')
 
 
