@@ -154,23 +154,48 @@ if a == 'ml_arfa_class':
 
 if a == 'arfa_2nd_batch_astp':
     st.subheader('Good luck for your quizzes!')
-    a, b, c = st.tabs(['home', 'chap1', 'chap2'])
+    styled_text('Introduction to Python and ML', size=15, bold=True, underline=True)
+    b,c,d,a = st.tabs(['home', 'part1', 'part2', 'part3'])
 
-    with a:
+    with b:
         styled_text('Welcome. You can access your quizzes on next pages!', size = 17, bold = True)
         st.write('---')
+        st.write('Contact me [here](https://www.instagram.com/fly_fazaia/)')
         
     
-    with b:    
+    with c:   
+        round = 1
         st.write('---')
-        with open('harman_tests/quiz1.txt', 'r') as f:
+        with open('2nd_batch_astp/aspt_quiz0.txt', 'r') as f:
             data = f.read()
             
         correct_options, refined_answers, questions, answers = mcqs_refining(data)
         mcq_display(correct_options, refined_answers, questions, answers)
         if st.button('Submit'):
             check_mcq(correct_options, refined_answers, questions, answers)
+    
+    with d:  
+        round=2
+        st.write('---')
+        with open('2nd_batch_astp/aspt_quiz1.txt', 'r') as f1:
+            data1 = f1.read()
+            
+        correct_options1, refined_answers1, questions1, answers1 = mcqs_refining(data1)
+        mcq_display(correct_options1, refined_answers1, questions1, answers1)
+        if st.button('Submit_part2'):
+            check_mcq(correct_options1, refined_answers1, questions1, answers1)
 
+    with a:
+        round=3
+        st.write('---')
+        with open('2nd_batch_astp/aspt_quiz2.txt', 'r') as f1:
+            data1 = f1.read()
+            
+        correct_options1, refined_answers1, questions1, answers1 = mcqs_refining(data1)
+        mcq_display(correct_options1, refined_answers1, questions1, answers1)
+        if st.button('Submit_part3'):
+            check_mcq(correct_options1, refined_answers1, questions1, answers1)
+        
 
 
 
