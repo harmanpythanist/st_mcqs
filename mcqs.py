@@ -166,7 +166,7 @@ if a == 'arfa_2nd_batch_astp':
     with c:   
         round = 1
         st.write('---')
-        with open('2nd_batch_astp/aspt_quiz0.txt', 'r') as f:
+        with open('2nd_batch_astp/astp_quiz0.txt', 'r') as f:
             data = f.read()
             
         correct_options, refined_answers, questions, answers = mcqs_refining(data)
@@ -177,7 +177,7 @@ if a == 'arfa_2nd_batch_astp':
     with d:  
         round=2
         st.write('---')
-        with open('2nd_batch_astp/aspt_quiz1.txt', 'r') as f1:
+        with open('2nd_batch_astp/astp_quiz1.txt', 'r') as f1:
             data1 = f1.read()
             
         correct_options1, refined_answers1, questions1, answers1 = mcqs_refining(data1)
@@ -188,7 +188,7 @@ if a == 'arfa_2nd_batch_astp':
     with a:
         round=3
         st.write('---')
-        with open('2nd_batch_astp/aspt_quiz2.txt', 'r') as f1:
+        with open('2nd_batch_astp/astp_quiz2.txt', 'r') as f1:
             data1 = f1.read()
             
         correct_options1, refined_answers1, questions1, answers1 = mcqs_refining(data1)
