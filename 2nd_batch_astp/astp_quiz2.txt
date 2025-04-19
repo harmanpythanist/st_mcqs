@@ -1,0 +1,64 @@
+1 - Which library is majorly used for training ml models?
+Pandas
+scikit-learn*
+Pyplot
+NumPy
+---
+2 - Which library will be used in task of satellite image processing?
+pandas
+scikit-learn
+cv2*
+random
+---
+3 - In machine learning, How do you spit the data into two chunks?
+Collections
+test_train_split(features, labels)
+train_test_split(features, labels)*
+train_test_split(labels, features)
+test_train_split(labels, features)
+---
+4 - Why do we split data while training ML models?
+To train the model multiple times
+To train the model in lesser time
+To evaluate how accurate the data is
+To check the accuracy of model*
+---
+5 - When dealing with a ML model where there are only 30 possible predictions, it is a:
+Classification problem*
+Regression problem
+can be delt as classification or regression both
+None of these
+---
+6 - Dealing with a problem where we predict whether a person is Harman or not, it is a:
+Regression problem
+Classification problem*
+None of these
+Depends
+---
+7 - File is stored in python through pandas, which of the following snippet is incorrect?
+file.head()
+file.info()
+file.types()*
+file.describe()
+---
+8 - Which of these codes will give error? Consider model is a kneighbors model.
+model.fit()
+model.predict()
+model.train()*
+model.type()
+---
+9 - model.predict() expects?
+2D tupple
+2D tupple
+2D array
+2D list*
+---
+10 - To execute few lines of code until a specific condition is reached, which structure do we use?
+conditional statements
+for loops
+while loops*
+do while loops
+
+
+
+
