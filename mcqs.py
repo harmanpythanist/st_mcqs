@@ -16,19 +16,15 @@ def check():
         if a == 'manal' and b == 'manal002':
             st.success('correct')
             return 'manal'
-        elif a == 'user' and b == 'user12':
-            st.success('correct')
-            return 'saad'
-        elif a == 'harman' and b == 'harman21':
-            st.success('correct')
-            return 'harman'
-
+   
         elif a == 'ml' and b == 'ml123':
             st.success('correct')
             return 'ml_arfa_class'
-        elif a == 'f24phil' and b == 'f24phil':
+
+
+        elif a == 'pythonistas' and b == 'codeage':
             st.success('correct')
-            return 'f24_test_mcq'
+            return 'arfa_2nd_batch_astp'
 
 def mcqs_refining(data):
     a = data.split('---')
@@ -95,28 +91,7 @@ st.write('---')
 
 
 a = check()
-
-if a == 'harman':
-    st.subheader('Good luck for your quizzes!')
-    a, b, c = st.tabs(['home', 'chap1', 'chap2'])
-
-    with a:
-        styled_text('Welcome. You can access your quizzes on next pages!', size = 17, bold = True)
-        st.write('---')
-        
-    
-    with b:    
-        st.write('---')
-        with open('harman_tests/quiz1.txt', 'r') as f:
-            data = f.read()
-            
-        correct_options, refined_answers, questions, answers = mcqs_refining(data)
-        mcq_display(correct_options, refined_answers, questions, answers)
-        if st.button('Submit'):
-            check_mcq(correct_options, refined_answers, questions, answers)
-
-
-    
+  
 if a == 'ml_arfa_class':
     st.subheader('Good luck for your quizzes!')
     styled_text('Introduction to Python and ML', size=15, bold=True, underline=True)
@@ -173,26 +148,28 @@ if a == 'ml_arfa_class':
             check_mcq(correct_options1, refined_answers1, questions1, answers1)
         
 
-if a == 'f24_test_mcq':
-    st.subheader('Good luck for your quiz!')
-    a, b = st.tabs(['home', 'Philosophy Final'])
+
+
+
+
+if a == 'arfa_2nd_batch_astp':
+    st.subheader('Good luck for your quizzes!')
+    a, b, c = st.tabs(['home', 'chap1', 'chap2'])
 
     with a:
-        styled_text('Welcome. You can access your quiz on next page!', size = 17, bold = True)
+        styled_text('Welcome. You can access your quizzes on next pages!', size = 17, bold = True)
         st.write('---')
         
     
     with b:    
-        round = 1
         st.write('---')
-        with open('midss/phil.txt', 'r') as f:
+        with open('harman_tests/quiz1.txt', 'r') as f:
             data = f.read()
             
         correct_options, refined_answers, questions, answers = mcqs_refining(data)
         mcq_display(correct_options, refined_answers, questions, answers)
         if st.button('Submit'):
             check_mcq(correct_options, refined_answers, questions, answers)
-    
 
 
 
@@ -200,7 +177,3 @@ if a == 'f24_test_mcq':
 
 
 
-
-
-if a == 'saad':
-    st.write('good hogya')
