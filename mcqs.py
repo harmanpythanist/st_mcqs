@@ -26,6 +26,10 @@ def check():
             st.success('correct')
             return 'arfa_2nd_batch_astp'
 
+        elif a=="AInastp" and b=="batch3":
+            st.success("correct")
+            return "Sharmeenfile"
+
 def mcqs_refining(data):
     a = data.split('---')
     questions = []
@@ -200,5 +204,36 @@ if a == 'arfa_2nd_batch_astp':
 
 
 
+if a == 'Sharmeenfile':
+    st.subheader('Good luck for your quizzes!')
+    styled_text('Introduction to Python', size=15, bold=True, underline=True)
+    b,c,d = st.tabs(['home', 'part1', 'part2'])
+
+    with b:
+        styled_text('Welcome. You can access your quizzes on next pages!', size = 17, bold = True)
+        st.write('---')
+        
+    
+    with c:   
+        round = 1
+        st.write('---')
+        with open('Sharmeenfiles/quiz1.txt', 'r') as f:
+            data = f.read()
+        
+        correct_options, refined_answers, questions, answers = mcqs_refining(data)
+        mcq_display(correct_options, refined_answers, questions, answers)
+        if st.button('Submit'):
+            check_mcq(correct_options, refined_answers, questions, answers)
+
+    with d:   
+        round = 2
+        st.write('---')
+        with open('Sharmeenfiles/quiz2.txt', 'r') as f:
+            data = f.read()
+        
+        correct_options, refined_answers, questions, answers = mcqs_refining(data)
+        mcq_display(correct_options, refined_answers, questions, answers)
+        if st.button('Submit1'):
+            check_mcq(correct_options, refined_answers, questions, answers)
 
 
