@@ -1,0 +1,62 @@
+1 - What is correct way to declare variables in python?
+age==4
+age=3*
+'age'=3
+'age=3'
+---
+2 - What is the output of 6+5 in python?
+error
+11*
+'65'
+65
+---
+3 - What is the output of 5>6
+True
+False*
+1
+0
+---
+4 - We declared a variable by statement age=5, then we write type(age), what will be the output?
+str
+int*
+5
+error
+---
+5 - What is the output of 5!=5
+True
+False*
+1
+0
+---
+6 - what is the output of int(5>2)?
+True
+False
+1*
+0
+---
+7 - what is the default datatype of input?
+string*
+int
+float
+bool
+---
+8 - == operator is used to?
+used to assign values
+make sure that both side values are equal*
+compare values on both sides
+none of the above
+---
+9 - Let say we declared a variable name= ali, we know make comparison name>7. what will be the output?
+True
+1 
+false
+error*
+---
+10 - why elif is used?
+to compare 2 conditions
+to compare multiple conditions*
+to evaluate 2 values
+none of the above
+
+
+

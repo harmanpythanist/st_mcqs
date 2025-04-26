@@ -1,0 +1,62 @@
+1 - "name"="Name"?
+False
+0
+True
+error*
+---
+2 - what of the following cant be performed on string?
+print
+arthimetic operations*
+assign values
+comparisons
+---
+3 - Which of the following is not an application of AI?
+Brain scan images*
+face id
+spam message classifier
+product recomendations
+---
+4 - Whey automatic washing machine is not an application of AI?
+It is an application of AI
+It keeps on learning
+It follows only set rules*
+machines work on their own
+---
+5 - Type casting means?
+assigning the value to the variable
+changing the datatype of variable*
+casting the changes in variable value
+changing the value in print statement
+---
+6 - we declared a variable age='15', we then write print(age+'8'). What will be the output?
+'age8'
+23
+'158'*
+158158
+---
+7 - AI is not used in which of the following?
+*automatic hand dryers
+x-ray image classifiers
+face detection
+AI is used in all of these
+---
+8 - loops in python are used to?
+evaluate a conditions
+perform repetitive tasks until a condition is true*
+compare values on both sides
+none of the above
+---
+9 -  we declared a variable age= 5, we now make comparison age>3. what will be the output of int(age>3)?
+5
+0 
+false
+1*
+---
+10 - what is infinite loop?
+a loop that evaluate conditon on each iteration
+loop that continues forever*
+it control flow of program
+none of the above
+
+
+
