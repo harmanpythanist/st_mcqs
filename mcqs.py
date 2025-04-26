@@ -26,9 +26,9 @@ def check():
             st.success('correct')
             return 'arfa_2nd_batch_astp'
 
-        elif a=="AInastp" and b=="batch3":
-            st.success("correct")
-            return "Sharmeenfile"
+        elif a=='AInastp' and b=='batch3':
+            st.success('correct')
+            return 'Sharmeenfile'
 
 def mcqs_refining(data):
     a = data.split('---')
